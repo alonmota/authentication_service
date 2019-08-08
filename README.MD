@@ -1,0 +1,1 @@
+# [Serviço de autenticação seguindo modelo OAuth 2](https://github.com/alonmota/authentication_service)
