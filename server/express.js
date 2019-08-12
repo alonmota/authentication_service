@@ -3,12 +3,13 @@ const logger = require('morgan');
 const bodyParser = require('body-parser');
 const cookieParser = require('cookie-parser');
 const compress = require('compression');
+const httpStatus = require('http-status');
 const cors = require('cors');
 const expressValidation = require('express-validation');
 const helmet = require('helmet');
 const routes = require('./resources/routes.js');
 const config = require('config');
-const APIError = require('../server/helpers/APIError');
+const APIError = require('./helpers/error_handler');
 
 const app = express();
 

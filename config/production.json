@@ -3,5 +3,5 @@
     "PORT": "3000",
 
     //mongodb://[username:password@]host1[:port1][,...hostN[:portN]][/[database][?options]]
-    "DATABASE_URI": "mongodb://admin:123qwe@127.0.0.1:27017/local"
+    "DATABASE_URI": "mongodb://admin:123qwe@127.0.0.1:27017/admin"
 }

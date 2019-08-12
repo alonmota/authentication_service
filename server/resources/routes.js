@@ -8,7 +8,10 @@ router.get('/server-status', (req, res) =>
   res.send('OK')
 );
 
+//TODO - Use fs to get and map resources;
+
+
 // mount user routes at /users
-router.use('/users', userRoutes);
+//router.use('/users', userRoutes);
 
 module.exports = router;
